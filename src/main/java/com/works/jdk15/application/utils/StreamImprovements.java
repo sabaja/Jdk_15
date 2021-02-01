@@ -33,5 +33,6 @@ public interface StreamImprovements {
         System.out.println();
         Stream<String> stream = Stream.ofNullable(null);
         stream.forEach(str -> System.out.println("no string is printed because the stream is null" + str));
+
     }
 }
