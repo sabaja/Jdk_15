@@ -12,6 +12,7 @@ public record RecordClass(String name, String address) {
     public RecordClass(String name) {
         this(name, UNKNOWN);
     }
+
     public RecordClass {
         Objects.requireNonNull(name);
         Objects.requireNonNull(address);
