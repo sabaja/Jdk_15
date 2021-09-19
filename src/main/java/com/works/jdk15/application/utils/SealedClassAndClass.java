@@ -24,7 +24,7 @@ final class SealedClass extends SealedClassAndClass {
     }
 }
 
-non-sealed class NonSealedClassExtends extends SealedClassAndClass{
+non-sealed class NonSealedClassExtends extends SealedClassAndClass {
 
     public NonSealedClassExtends(String registrationNumber) {
         super(registrationNumber);
